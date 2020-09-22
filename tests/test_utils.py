@@ -1,5 +1,5 @@
 from fircode.utils import minus
-import pylint.testutils
+import pytest
 
 @pytest.mark.parametrize('a, b, result', [
     (4, 3, 1),
